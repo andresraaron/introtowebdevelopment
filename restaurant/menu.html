@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<link href="css/restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+	<style>
+		.nav-pills .nav-item .nav-link:not(.active) {
+			background-color: white;
+		}
+		
+		.nav-pills .nav-item .nav-link {
+			background-color: #4169E1;
+		}
+
+		.nav-pills .nav-item .nav-link:not(.active) {
+			background-color: white;
+		}
+
+		#main {
+			font-family: "comic sans ms", Helvetica, sans-serif;
+			background-color: #E5BD7B;
+		}
+
+		h2 {
+			text-align: center;
+			font-size: 28px;
+			font-weight: bold;
+		}
+
+		ul {
+			list-style-type: none;
+			text-align: center;
+			padding-right: 30px;
+		}
+
+    	table {
+		    border-radius: 5px;
+		    width: 70%;
+		    margin: 15px auto;
+		    float: none;
+		    background-color: #4169E1;
+		    color: white;
+		}
+
+    	tr {
+    		border: 2px solid black;
+    	}
+
+    	.col-sm-3 {
+    		padding-top: 20px;
+    	}
+
+    	th {
+    		font-size: 20px;
+    		text-align: right;
+    	}
+
+    	td {
+    		padding: 3px 5px;
+    	}
+
+    	.row {
+    		margin-left: 25px;
+    		margin-right: 25px;
+    	}
+
+	</style>
+	<body>
+		<div class="container-fluid">
+			<div id="title">
+				<h1>"Now That's A Pizza!"</h1>
+			</div>
+			<div id="navigation">
+				<hr />
+				<ul class="nav nav-pills">
+				  <li class="nav-item">
+				    <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link active" href="menu.html">Menu</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="contact.html">Contact Us</a>
+				  </li>
+				</ul>
+				<hr />
+			</div>
+			<div id="main">
+				<div class="row">
+				    <div class="col-sm-3">
+						<h2>Peppie Pepperoni</h2>
+						<ul class="ingredients">
+							<li>Signature Pepperoni Slices</li>
+							<li>Spicey Homemade Sauce</li>
+							<li>Specialty Mozzarella Cheese</li>
+							<li>A Hint of Parmesan</li>
+							<li>$12.95</li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<h2>Sassy Sausage</h2>
+						<ul class="ingredients">
+							<li>Homemade Spicey Sausage</li>
+							<li>Tangy Homemade Sauce</li>
+							<li>Specialty Provolone Cheese</li>
+							<li>A Hint of Mozzarella</li>
+							<li>$12.95</li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<h2>Super Supreme</h2>
+						<ul class="ingredients">
+							<li>Signature Pepperoni and Sausage</li>
+							<li>Traditional Homemade Sauce</li>
+							<li>Mushrooms, Black Olives, Onion</li>
+							<li>Mix of Mozzarella and Cheddar</li>
+							<li>$15.95</li>
+						</ul>
+					</div>
+					<div class="col-sm-3">         
+						<table>
+							<thead>
+							    <tr>
+								    <th>Beverages</th>
+								    <th></th>
+							    </tr>
+							</thead>
+							<tbody>
+							    <tr>
+							    	<td>Rootbeer</td>
+							        <td>$3.00</td>
+							    </tr>
+							    <tr>
+							        <td>Bottled Water</td>
+							        <td>$1.25</td>
+							    </tr>
+							    <tr>
+							        <td>Lemonade</td>
+							        <td>$1.00</td>
+							    </tr>
+							    <tr>
+							        <td>Iced Tea</td>
+							        <td>$1.25</td>
+							    </tr>
+							</tbody>
+						</table>
+					</div>
+				</div>	
+				<div class="row">
+				    <div class="col-sm-3">
+						<h2>Tasty Taco</h2>
+						<ul class="ingredients">
+							<li>Taco-Seasoned Hamburger</li>
+							<li>Homemade Taco Sauce</li>
+							<li>Nacho Chips, Lettuce, Tomatoes</li>
+							<li>Mix of Colby and Parmesan</li>
+							<li>$7.95</li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<h2>Cheesy Cheese</h2>
+						<ul class="ingredients">
+							<li>Three Cheese Mix</li>
+							<li>Traditional Homemade Sauce</li>
+							<li>Mozzarella Stuffed Crust</li>
+							<li>Additional Sauce for Dipping</li>
+							<li>$7.95</li>
+						</ul>
+					</div>
+					<div class="col-sm-3">
+						<h2>Victorious Veggie</h2>
+						<ul class="ingredients">
+							<li>Red, Orange, and Yellow Peppers</li>
+							<li>Smooth Homemade Sauce</li>
+							<li>Romaine Lettuce</li>
+							<li>Sharp Cheddar and Mozzarella </li>
+							<li>$7.95</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<footer>
+					<hr />
+					<p>Street, City, State, Zipcode</p>
+					<p>Telephone Number</p>
+					<hr />
+				</footer>
+			</div>
+		</div>
+		<noscript>This site is best viewed with JavaScript enabled.</noscript>
+	</body>
+</html>

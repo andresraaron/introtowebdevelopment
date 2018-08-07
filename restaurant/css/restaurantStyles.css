@@ -1,0 +1,39 @@
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #4169E1;
+}
+
+#navigation {
+	color: #4169E1;
+}
+#navigation a:hover {
+	font-weight: bold;
+}
+
+#navigation a:visited {
+	color: #60557B;
+}
+
+#navigation {
+	font-family: "comic sans ms", Helvetica, sans-serif;
+}
+
+#navigation ul {
+	margin-left: 10px;
+}
+
+hr {
+	border: solid #4169E1 1px;
+}
+
+#footer {
+ 	width: 100%;
+ 	font-family: "comic sans ms", Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}

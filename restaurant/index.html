@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Restaurant</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<link href="css/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	</head>
+	<style>
+		.nav-pills .nav-item .nav-link {
+			background-color: #4169E1;
+		}
+		
+		.nav-pills .nav-item .nav-link:not(.active) {
+			background-color: white;
+		}
+
+		.nav-pills .nav-item .nav-link:not(.active) {
+			background-color: white;
+		}
+
+		#main {
+	      background-color: #E5BD7B;
+	    }
+
+	    .jumbotron {
+	    	font-family: "comic sans ms", Helvetica, sans-serif;
+	    	background-color: #4169E1;
+	    	color: white;
+	    }
+
+	    .jumbotron h1 {
+	    	font-family: "comic sans ms", Helvetica, sans-serif;
+	    	color: white;
+	    }
+
+	    .jumbotron p {
+	    	text-align: center;
+	    }
+
+	    .carousel-inner img {
+	      width: 100%;
+	      height: 100%;
+  		}
+
+		.center {
+		    display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+
+		img {
+			padding-top: 36px;
+		}
+
+		.description {
+			padding-bottom: 10px;
+		}
+
+		.description p {
+			font-family: "comic sans ms", Helvetica, sans-serif;
+			font-size: 16px;
+			text-align: justify;
+			width: 400px;
+			max-width: 98%;
+			padding: 10px 20px 20px 20px;
+			line-height: 18px;
+			word-spacing: -2px;
+			color: white;
+			background-color: #4169E1;
+			margin: 0px auto 16px auto;
+		}
+	</style>
+	<body>
+		<div class="container-fluid">
+			<div id="title">
+				<h1>"Now That's A Pizza!"</h1>
+			</div>
+			<div id="navigation">
+				<hr />
+				<ul class="nav nav-pills">
+				  <li class="nav-item">
+				    <a class="nav-link active" href="index.html"><i class="fas fa-home"></i></a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="menu.html">Menu</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="contact.html">Contact Us</a>
+				  </li>
+				</ul>
+				<hr />
+			</div>
+			<div id="demo" class="carousel slide" data-ride="carousel">
+			  <ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			  </ul>
+			<div class="carousel-inner">
+			    <div class="carousel-item active">
+					<div class="jumbotron jumbotron-fluid">
+						<div class="container-fluid">
+					 		<h1>New location now open!</h1>
+					 		<p>If you are in the area, please come and visit our new location in Maple Grove, MN.</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+					<div class="jumbotron jumbotron-fluid">
+						<div class="container-fluid">
+					 		<h1>Seasonal menu!</h1>
+					 		<p>We're rolling out our seasonal menu, with special options for this season.</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+					<div class="jumbotron jumbotron-fluid">
+						<div class="container-fluid">
+					 		<h1>Drink of the Month!</h1>
+					 		<p>The Drink of the Month is SG Special Brew.</p>
+						</div>
+					</div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			    <span class="carousel-control-prev-icon"></span>
+			  </a>
+			  <a class="carousel-control-next" href="#demo" data-slide="next">
+			    <span class="carousel-control-next-icon"></span>
+			  </a>
+			</div>
+			<div id="main">
+				<div class="image">
+					<img class="img-fluid center" src="images/pizza.jpg" alt="Image of pizza." height="150" width="400" /><br />
+				</div>
+				<div class="description">
+					<p>We would like to start by welcoming you to our family-owned pizzeria that was established in 2015.  My wife and I have always enjoyed hosting parties and making food for our family and friends in our home in Hanover, MN.  Our guests continually raved about the pizzas we made and insisted we open a restaurant.  With the help and input of our family and friends we developed a menu full of our most delicious pizza combinations.  Our name was inspired by my best friend, Mario, when he took his first bite of our peppy pepperoni pizza and said, "Now that's a pizza!"  We are extremely happy and blessed to be able to share our passion for pizza and hope that our restaurant continues to bring family and friends together for years-to-come. 
+					 </p>
+				</div>
+			</div>
+			<div id="footer">
+				<footer>
+					<hr />
+					<p>Settlers Lane, Hanover, MN 55341</p>
+					<p>Phone: 763-456-9898</p>
+					<hr />
+				</footer>
+			</div>
+		</div>
+		<noscript>This site is best viewed with JavaScript enabled.</noscript>
+	</body>
+</html>
